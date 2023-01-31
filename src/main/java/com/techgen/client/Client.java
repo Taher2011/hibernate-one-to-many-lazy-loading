@@ -48,7 +48,7 @@ public class Client {
 		Guide guide1 = new Guide("GC-877", "Ram");
 
 		Student student1 = new Student("ET-1234", "Sunil");
-		Student student2 = new Student("ET-1235", "Anil");
+		Student student2 = new Student("ET-1234", "Anil");
 		System.out.println(student1.equals(student2));
 
 		guide1.addStudent(student1);
